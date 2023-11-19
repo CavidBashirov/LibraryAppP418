@@ -49,6 +49,7 @@ namespace LibraryApp.Controllers
 
         public void GetAll()
         {
+            //get all datas
             var result = _libraryService.GetAll();
 
             foreach (var item in result)
